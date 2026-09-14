@@ -1,0 +1,17 @@
+.footer {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+
+.footer-link {
+}
+.footer-slogan {
+  color: #f4f4fd;
+  max-width: 264px;
+}
+
+.logo-footer {
+  display: block;
+  color: #f4f4fd;
+  margin-bottom: 16px;
+}
