@@ -18,6 +18,20 @@
   color: #2e2f42;
 
   margin-bottom: 8px;
+  margin-top: 8px;
 }
 .features-text {
+}
+
+.features-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  height: 112px;
+}
+.features-icon {
 }

@@ -3,6 +3,25 @@
   padding: 100px 0;
 }
 
+.footer .container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-left {
+  margin-right: 120px;
+}
+
+.footer-socials {
+}
+
+.footer-caption {
+  font-weight: 500;
+  color: #fff;
+
+  margin-bottom: 16px;
+}
+
 .footer-link {
 }
 .footer-slogan {

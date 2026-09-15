@@ -45,6 +45,37 @@ address {
   margin: 0 auto;
 }
 
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.socials-item {
+  list-style: none;
+}
+.socials-link {
+  display: flex;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50px;
+
+  width: 40px;
+  height: 40px;
+  background: #4d5ae5;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
+}
+
+.socials-link:hover {
+  background-color: #404bbf;
+}
+.socials-icon {
+  color: #fff;
+}
+
 /*Base styles*/
 .accent {
   color: #4d5ae5;
@@ -70,6 +101,9 @@ address {
   color: #fff;
   background-color: #4d5ae5;
   border: none;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: backgroud-color;
 }
 .button:hover,
 .button:focus {
