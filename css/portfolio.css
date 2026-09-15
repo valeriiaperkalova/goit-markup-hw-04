@@ -70,10 +70,5 @@
   transform: translateY(100%);
 
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: transform;
-}
-
-.socials-link:hover.footer-socials,
-.socials-link:focus.footer-socials {
-  background-color: #31d0aa;
+  transition-property: transform box-shadow;
 }

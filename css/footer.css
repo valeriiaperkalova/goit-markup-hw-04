@@ -5,7 +5,6 @@
 
 .footer .container {
   display: flex;
-  align-items: baseline;
 }
 
 .footer-left {
@@ -33,4 +32,12 @@
   display: block;
   color: #f4f4fd;
   margin-bottom: 16px;
+}
+
+.socials-link .footer-socials {
+  gap: 16px;
+}
+.socials-link:hover.footer-socials,
+.socials-link:focus.footer-socials {
+  background-color: #31d0aa;
 }
