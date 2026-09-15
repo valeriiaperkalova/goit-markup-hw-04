@@ -2,8 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1440px;
+  max-width: 1440px;
   height: 600px;
+  margin: auto;
   background: #2e2f42;
   background-image:
     linear-gradient(
